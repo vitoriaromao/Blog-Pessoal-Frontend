@@ -38,7 +38,7 @@ function Home() {
                 <Grid alignItems="center" item xs={6}>
                     <Box paddingX={20} >
                         <Typography variant="h3" gutterBottom color="textPrimary" component="h3" align="center" className='titulo'>Seja bem vindo(a)!</Typography>
-                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Expresse aqui os seus pensamentos e opiniões!</Typography>
+                        <Typography variant="h5" gutterBottom color="textPrimary" component="h5" align="center" className='titulo'>Aqui estarão minhas ideias e opniões sobre os mais diversos assuntos! </Typography>
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
@@ -50,7 +50,7 @@ function Home() {
                     </Box>
                 </Grid>
                 <Grid item xs={6} className="img">
-                    <img src="https://i.pinimg.com/564x/77/56/65/7756659675a2d2a6d5fc7469ab5f1af5.jpg" alt="" width="500px" height="500px" />
+                    <img src="https://i.pinimg.com/564x/77/56/65/7756659675a2d2a6d5fc7469ab5f1af5.jpg" alt="" width="755px" height="700px" />
                 </Grid>
                 <Grid xs={12} className='postagens'>
                     <TabPostagem />

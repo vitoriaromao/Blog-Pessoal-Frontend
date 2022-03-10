@@ -70,8 +70,8 @@ function Login() {
                 <Box paddingX={20}>
                     <form onSubmit={onSubmit}>
                         <Typography variant='h3' gutterBottom color='textPrimary' component='h3' align='center' className='textos1'>Entrar</Typography>
-                        <TextField value={userLogin.usuario} onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='Usuário' label='usuário' variant='outlined' name='usuario' margin='normal' fullWidth />
-                        <TextField value={userLogin.senha} onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='Senha' label='senha' variant='outlined' name='senha' margin='normal' type='password'fullWidth />
+                        <TextField value={userLogin.usuario} onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='Usuário' label='Usuário' variant='outlined' name='usuario' margin='normal' fullWidth />
+                        <TextField value={userLogin.senha} onChange={(e:ChangeEvent<HTMLInputElement>) => updatedModel(e)} id='Senha' label='Senha' variant='outlined' name='senha' margin='normal' type='password'fullWidth />
                         <Box marginTop={2} textAlign='center'>
                                 <Button type='submit' variant='contained' color='primary'className='color-button'>
                                     Entrar
@@ -83,7 +83,7 @@ function Login() {
                             <Typography variant='subtitle1' gutterBottom align='center'>Não tem uma conta?</Typography>
                         </Box>
                         <Link to='/cadastrousuario'>
-                            <Typography variant='subtitle1' gutterBottom align='center' className='textos1'>Cadastre-se</Typography>
+                            <Typography variant='subtitle1' gutterBottom align='center' className='textos1'>Cadastre-se!</Typography>
                         </Link>
                             
                     </Box>
