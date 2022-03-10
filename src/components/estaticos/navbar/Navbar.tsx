@@ -38,11 +38,11 @@ function Navbar() {
         <Toolbar variant="dense">
             <Box className='cursor'>
                 <Typography variant="h5" color="inherit">
-                    Blog Pessoal
+                    Blog da Vih
                 </Typography>
             </Box>
 
-            <Box display="flex" justifyContent="start">
+            <Box display="flex" justifyContent="start" className='nav'>
                 <Link to="/home" className="text-decorator-none">
                     <Box mx={1} className='cursor'>
                         <Typography variant="h6" color="inherit">

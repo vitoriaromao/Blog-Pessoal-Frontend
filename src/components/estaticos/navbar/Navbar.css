@@ -1,5 +1,5 @@
 .box {
-    background-color: #ff00ff !important;
+    background-color: #815DA6 !important;
 }
 .cursor{
     cursor: pointer;
@@ -8,4 +8,9 @@
 
 .text-decorator-none{
     text-decoration: none;
+
+}
+
+.nav{
+    text-align: center;
 }

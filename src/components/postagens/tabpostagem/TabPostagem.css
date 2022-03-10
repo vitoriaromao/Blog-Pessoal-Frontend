@@ -1,8 +1,16 @@
 .titulo{
     font-weight: bold;
-    color: #800080!important;
+    color: #815DA6 !important;
  }
  
  .box {
-    background-color: #ff00ff !important;
+    background-color: #B18FBF!important;
+}
+
+.botao1{
+    background-color: #B18FBF!important;
+}
+
+.botao2{
+    background-color: #815DA6!important;
 }
